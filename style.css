@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #af9effde;
+    line-height: 1.6;
+    background-image: url(https://i.pinimg.com/736x/e2/6e/f7/e26ef7a4f4c62e2400aebd7604a89ed7.jpg);
+    background-size: contain;
+}
+
+.page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.accounts{
+    border-radius: 5px;
+    width: 30%;
+    border: 2px rgba(104, 187, 255, 0.61);
+}
